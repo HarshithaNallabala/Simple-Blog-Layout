@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.bg-gradient-custom {
+  background: linear-gradient(to right, #4a00e0, #8e2de2);
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-body{
+  color: #000;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+}
+
+.glow-btn {
+  transition: all 0.3s ease-in-out;
+}
+
+.glow-btn:hover {
+  background-color: #ffffff;
+  color: #000;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff;
+}
+
+.glass-card .btn {
+  border-color: #fff;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.glass-card .btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
